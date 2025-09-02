@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM openjdk:8u312-jre-buster
+FROM openjdk:26-trixie
 
-LABEL version="4.2.4"
+LABEL version="latest"
 
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
