@@ -1,4 +1,4 @@
-# [SkyFactory 4 - 4.2.4](https://www.curseforge.com/minecraft/modpacks/skyfactory-4) on Curseforge
+# [SkyFactory 5 - 5.0.8](https://www.curseforge.com/minecraft/modpacks/skyfactory-5) on Curseforge
 
 <!-- toc -->
 
@@ -57,6 +57,9 @@ This container is designed for [Unraid](https://unraid.net) so the user in the c
 If the install is incomplete for some reason.  Deleting the downloaded server file in /data will restart the install/upgrade process.
 
 ## Source
-Github: https://github.com/Goobaroo/docker-skyfactory4
 
+This is a Fork of Goobaroo's Skyfactory 4 Server. See his work here:
+Github: https://github.com/Goobaroo/docker-skyfactory4
 Docker: https://hub.docker.com/repository/docker/goobaroo/skyfactory4
+
+https://github.com/Gurkesalat/docker-skyfactory5

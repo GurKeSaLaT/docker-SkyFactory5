@@ -11,9 +11,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f SkyFactory-4_Server_4_2_4.zip ]]; then
+if ! [[ -f SkyFactory-5_Server_5_0_8.zip ]]; then
 	rm -fr config defaultconfigs global_data_packs global_resource_packs mods packmenu SkyFactory_4_Server_4*.zip
-	curl -Lo SkyFactory-4_Server_4_2_4.zip 'https://edge.forgecdn.net/files/3565/687/SkyFactory-4_Server_4_2_4.zip' && unzip -u -o SkyFactory-4_Server_4_2_4.zip -d /data
+	curl -Lo SkyFactory-5_Server_5_0_8.zip 'https://edge.forgecdn.net/files/6290/699/SkyFactory_5_Server_5.0.8.zip' && unzip -u -o SkyFactory-5_Server_5_0_8.zip -d /data
 	chmod +x Install.sh
 	./Install.sh
 fi
