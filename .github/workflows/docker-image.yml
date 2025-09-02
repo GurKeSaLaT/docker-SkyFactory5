@@ -15,9 +15,11 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v4
+	  
     - name: Build the Docker image
       run: docker build . --file Dockerfile -t gurkesalat/skyfactory_5:latest
+	  
     - name: push
       run: |
-		docker login -u gurkesalat -p ${{secrets.DOCKER_HUB}}
-		docker push gurkesalat/skyfactory_5:latest
+        docker login -u gurkesalat -p ${{secrets.DOCKER_HUB}}
+        docker push gurkesalat/skyfactory_5:latest
